@@ -1,0 +1,91 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color and center the content */
+  body {
+    background-image: url(wp7407993.webp);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+  #toUnit {
+    margin-left: 8px;
+  }
+  
+  .center {
+    width: 800px;
+    height: 500px; 
+    max-width: 90%;
+    background-color: #ff51007b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  label, select, input[type="number"], button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  select, input[type="number"] {
+    font-size: 16px;
+  }
+  
+  button {
+    font-size: 30px;
+    background-color: #ff4d00f5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #ff7801;
+  }
+  
+  #result {
+    background-color: #ff860c6f;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: 0.5s;
+  }
+  #result:hover{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 28px;
+  }
+  
