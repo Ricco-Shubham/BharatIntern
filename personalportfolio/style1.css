@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+   transition: 0.5s;
+}
+header h1:hover{
+    font-size: 50px;
+    text-align: center;
+    font-size: 60px;
+    color:  #f8fffd;
+    
+}
+header{
+    padding: 40px;
+    background-color:rgb(16, 206, 212) ;
+
+}
+nav{
+ 
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    height: 9vh;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    transition: 0.5s;
+    
+
+}
+nav a:hover{
+font-size: 150%;
+color: chartreuse;
+}
+nav a:active{
+color: coral;
+}
+main{
+    margin-top: -20px;
+    background-color: white;
+    text-align: center;
+}
+
+section{
+    min-height: 100vh;
+   
+}
+video{
+    padding: 10px;
+}
+image{
+    padding: 10px;
+}
+section h5{
+    margin: 40%
+}
+footer{
+    overflow: hidden;
+    background-color: #333;
+    height: 9vh;
+   
+} 
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    font-size: 20;
+    transition: 0.5s;
+}
+footer a:hover{
+    font-size: 150%;
+    color: chartreuse;
+    }
+footer a:active{
+    color: coral;
+    }
+
+    header{
+        margin-top: -20px;
+        width: 100%;
+        height: 40vh;
+        background-size: 400% 400%;
+        background: linear-gradient(-60deg,rgb(0, 255, 187),rgb(4, 234, 246),rgb(0, 255, 26));   
+        position: relative;
+        animation: change 10s ease-in-out infinite;
+    }
+    @keyframes change{
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+    }
